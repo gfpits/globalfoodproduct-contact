@@ -1,8 +1,8 @@
 <script setup>
 // เพิ่ม import รูป online shop
-import imgTops from '~/public/images/TOPS.png'
-import imgShopee from '~/public/images/SHOPEE.png'
-import imgLazada from '~/public/images/LAZADA.png'
+import imgTops from '@/public/images/TOPS.png'
+import imgShopee from '@/public/images/SHOPEE.png'
+import imgLazada from '@/public/images/LAZADA.png'
 /*
   ⭐ โครงข้อมูลแบบ Team Group
   เพิ่มทีมเพิ่มคนได้ง่าย
