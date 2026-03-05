@@ -12,7 +12,8 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   routeRules: {
-    '/': { prerender: true }
+    '/': { prerender: true },
+    '/contact': { prerender: true }
   },
 
   compatibilityDate: '2025-01-15',
@@ -25,7 +26,15 @@ export default defineNuxtConfig({
       }
     }
   },
+
   devServer: {
     host: '0.0.0.0'
+  },
+
+  // แก้ปัญหา Vite resolve /images/* ใน production
+  vite: {
+    build: {
+      assetsInlineLimit: 0
+    }
   }
 })

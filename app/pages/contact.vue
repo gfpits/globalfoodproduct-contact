@@ -252,10 +252,11 @@ const brands = [
               target="_blank"
               class="flex-shrink-0 opacity-80 hover:opacity-100 transition"
             >
-              <img
+              <!-- <img
                 src="/images/tops.png"
                 class="h-10 md:h-12 object-contain"
-              />
+              /> -->
+              <img src="/images/tops.png" alt="Tops" loading="lazy" />
             </a>
 
             <!-- SHOPEE -->
@@ -264,10 +265,11 @@ const brands = [
               target="_blank"
               class="flex-shrink-0 opacity-80 hover:opacity-100 transition"
             >
-              <img
+              <!-- <img
                 src="/images/shopee.png"
                 class="h-10 md:h-12 object-contain"
-              />
+              /> -->
+              <img src="/images/shopee.png" alt="Shopee" loading="lazy" />
             </a>
 
             <!-- LAZADA -->
@@ -276,10 +278,11 @@ const brands = [
               target="_blank"
               class="flex-shrink-0 opacity-80 hover:opacity-100 transition"
             >
-              <img
+              <!-- <img
                 src="/images/lazada.png"
                 class="h-10 md:h-12 object-contain"
-              />
+              /> -->
+              <img src="/images/lazada.png" alt="Lazada" loading="lazy" />
             </a>
           </div>
         </div>
