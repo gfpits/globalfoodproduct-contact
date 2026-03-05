@@ -1,4 +1,8 @@
 <script setup>
+// เพิ่ม import รูป online shop
+import imgTops from '~/public/images/TOPS.png'
+import imgShopee from '~/public/images/SHOPEE.png'
+import imgLazada from '~/public/images/LAZADA.png'
 /*
   ⭐ โครงข้อมูลแบบ Team Group
   เพิ่มทีมเพิ่มคนได้ง่าย
@@ -246,17 +250,15 @@ const brands = [
             justify-items-center
             "
           >
+            <!-- ส่วน template แก้ src ให้ใช้ตัวแปร -->
+
             <!-- TOPS -->
             <a
               href="https://www.tops.co.th/en/shop-by-brands/global-food-products"
               target="_blank"
               class="flex-shrink-0 opacity-80 hover:opacity-100 transition"
             >
-              <!-- <img
-                src="/images/tops.png"
-                class="h-10 md:h-12 object-contain"
-              /> -->
-              <img src="/images/tops.png" alt="Tops" loading="lazy" />
+              <img :src="imgTops" alt="Tops" class="h-10 md:h-12 object-contain" />
             </a>
 
             <!-- SHOPEE -->
@@ -265,11 +267,7 @@ const brands = [
               target="_blank"
               class="flex-shrink-0 opacity-80 hover:opacity-100 transition"
             >
-              <!-- <img
-                src="/images/shopee.png"
-                class="h-10 md:h-12 object-contain"
-              /> -->
-              <img src="/images/shopee.png" alt="Shopee" loading="lazy" />
+              <img :src="imgShopee" alt="Shopee" class="h-10 md:h-12 object-contain" />
             </a>
 
             <!-- LAZADA -->
@@ -278,11 +276,7 @@ const brands = [
               target="_blank"
               class="flex-shrink-0 opacity-80 hover:opacity-100 transition"
             >
-              <!-- <img
-                src="/images/lazada.png"
-                class="h-10 md:h-12 object-contain"
-              /> -->
-              <img src="/images/lazada.png" alt="Lazada" loading="lazy" />
+              <img :src="imgLazada" alt="Lazada" class="h-10 md:h-12 object-contain" />
             </a>
           </div>
         </div>
